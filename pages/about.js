@@ -1,10 +1,11 @@
 import Hero from "components/hero";
 
 const params = {
-  title: "CUBE",
-  subtitle: "アウトプットしていくサイト",
+  title: "About",
+  subtitle: "About developement activities",
 };
-const Home = () => {
+
+const About = () => {
   return (
     <>
       <Hero {...params} />
@@ -12,4 +13,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default About;
