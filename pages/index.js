@@ -1,17 +1,14 @@
-import Header from './components/header'
-import Hero from './components/hero'
-import Footer from './components/footer'
+import Layout from "components/layout";
+import Hero from "components/hero";
 
 const Home = () => {
   return (
     <>
-      <Header />
-      <main>
+      <Layout>
         <Hero />
-      </main>
-      <Footer />
+      </Layout>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
