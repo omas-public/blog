@@ -1,5 +1,11 @@
+import Logo from 'components/logo'
+import Nav from 'components/nav'
+
 const Header = () => (
-    <header>HEADER</header>
+  <header>
+    <Logo />
+    <Nav />
+  </header>
 )
 
 export default Header

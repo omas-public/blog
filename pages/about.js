@@ -1,16 +1,15 @@
-import Hero from "components/hero";
-
+import Hero from 'components/hero'
 const params = {
-  title: "About",
-  subtitle: "About developement activities",
-};
+  title: 'About',
+  subtitle: 'About developement activities'
+}
 
 const About = () => {
   return (
     <>
       <Hero {...params} />
     </>
-  );
-};
+  )
+}
 
-export default About;
+export default About
