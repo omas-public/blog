@@ -4,6 +4,6 @@ const Hero = ({ title, subtitle, imageOn = false }) => (
     <p>{subtitle}</p>
     {imageOn && <figure>[image]</figure>}
   </div>
-);
+)
 
-export default Hero;
+export default Hero

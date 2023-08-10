@@ -1,16 +1,18 @@
 import Hero from 'components/hero'
 
-const params = {
-  title: 'Blog',
-  subtitle: 'Recent Posts'
-}
-
-const Blog = () => {
+const Blog = props => {
   return (
     <>
-      <Hero {...params} />
+      <Hero {...props} />
     </>
   )
 }
+
+export const getStaticProps = async context => ({
+  props: {
+    title: 'Blog',
+    subtitle: 'Recent Posts'
+  }
+})
 
 export default Blog

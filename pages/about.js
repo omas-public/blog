@@ -1,8 +1,4 @@
 import Hero from 'components/hero'
-const params = {
-  title: 'About',
-  subtitle: 'About developement activities'
-}
 
 const About = () => {
   return (
@@ -11,5 +7,12 @@ const About = () => {
     </>
   )
 }
+
+export const getStaticProps = async context => ({
+  props: {
+    title: 'About',
+    subtitle: 'About developement activities'
+  }
+})
 
 export default About
