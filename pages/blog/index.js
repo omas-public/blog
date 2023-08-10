@@ -1,12 +1,10 @@
 import Hero from 'components/hero'
 
-const Blog = props => {
-  return (
-    <>
-      <Hero {...props} />
-    </>
-  )
-}
+const Blog = props => (
+  <>
+    <Hero {...props} />
+  </>
+)
 
 export const getStaticProps = async context => ({
   props: {
