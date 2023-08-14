@@ -1,10 +1,10 @@
 import Link from 'next/link'
+import styles from 'styles/nav.module.css'
 
 const Nav = () => {
   return (
-    // nav>ul>(li>Link[href=/])*3
     <nav>
-      <ul>
+      <ul className={styles.list}>
         <li>
           <Link href='/'>Home</Link>
         </li>
