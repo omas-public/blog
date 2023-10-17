@@ -7,12 +7,12 @@ const Home = props => (
   </Container>
 )
 
-export const getStaticProps = async context => ({
+const getStaticProps = async context => ({
   props: {
     title: 'CUBE',
     subtitle: 'アウトプットしていくサイト',
     imageOn: true
   }
 })
-
+export { getStaticProps }
 export default Home
